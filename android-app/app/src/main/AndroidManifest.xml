@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="local.speed">
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="32" />
+    <application android:label="Laya Speed" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:allowBackup="false" android:debuggable="false">
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+        </activity>
+    </application>
+</manifest>

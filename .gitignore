@@ -1,0 +1,11 @@
+node_modules/
+__pycache__/
+*.pyc
+build/
+*.apk
+*.keystore
+android-app/app/src/main/assets/frida-inject
+android-app/app/src/main/assets/agent.js
+.idea/
+*.iml
+.serena/
